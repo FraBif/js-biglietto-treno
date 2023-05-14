@@ -14,4 +14,6 @@ if (userAge < 18) {
     result = parseInt((userFee - majorDiscount))
     document.getElementById(`price`).innerHTML = result ;
 
+} else {
+    document.getElementById(`price`).innerHTML = userFee
 }
